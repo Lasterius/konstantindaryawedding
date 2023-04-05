@@ -1,0 +1,60 @@
+@font-face {
+	font-family: raleway_f;
+	src: url(../fonts/raleway-regular.woff2);
+}
+@font-face {
+	font-family: raleway_f;
+	src: url(../fonts/raleway-black.woff2);
+	font-weight: 900;
+}
+.time-count {
+	position: absolute;
+	bottom: 6%;
+	font-family: raleway_f, sans-serif;
+	color: #e7e7e0;
+	text-shadow: 0 0 15px #b47016;
+	background: rgb(9, 46, 0, 0.5);
+	box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.2);
+	border-radius: 30px;
+	width: 400px;
+	height: 200px;
+	padding: 35px 40px;
+}
+.time-count__title {
+	margin: 0;
+	margin-bottom: 30px;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 32px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.time-count__content {
+	display: flex;
+	justify-content: center;
+}
+.time-count__item {
+	text-align: center;
+}
+.time-count__val {
+	min-width: 41px;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 42px;
+	color: var(--color-accent);
+}
+.time-count__separator {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 43px;
+	text-align: center;
+	color: var(--color-accent);
+	margin: 0 20px;
+}
+.time-count__text {
+	font-family: raleway_f, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--color-dark);
+}
