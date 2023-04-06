@@ -134,7 +134,7 @@ body {
 	text-shadow: 0 0 15px #b47016;
 }
 .date {
-	height: 90vh;
+	height: 92vh;
 }
 .location {
 	height: 100vh;
@@ -143,12 +143,12 @@ body {
 	width: 100vw;
 }
 .info {
-	min-height: 60vh;
+	min-height: 70vh;
 	text-align: left;
 	padding: 0 10%;
 }
 .greenwood {
-	min-height: 70vh;
+	min-height: 78vh;
 }
 .links {
 	min-height: 55vh;

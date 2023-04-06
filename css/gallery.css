@@ -85,6 +85,13 @@ h2.title:after {
 	height: 100%;
 	transition: all 0.5s ease;
 }
+.coct {
+	font-size: calc(var(--index) * 1.5);
+	margin-top: calc(var(--index) / 1.25);
+	text-shadow: 0 0 15px #b47016;
+	color: var(--text);
+	text-align: center;
+}
 @media (max-width: 991px) {
 	.gallery-item {
 		flex: 33.3%;
